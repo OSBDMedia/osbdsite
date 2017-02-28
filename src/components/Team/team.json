@@ -1,0 +1,21 @@
+{
+  "title": "The Team",
+  "team": [
+    {
+      "name": "Pip Piper",
+      "role": "Director"
+    },
+    {
+      "name": "Sarah Green",
+      "role": "Co-Producer and Admin"
+    },
+    {
+      "name": "Laurence Sharman",
+      "role": "Chair of Trustees"
+    },
+    {
+      "name": "Mike Riddell",
+      "role": "Patron"
+    }
+  ]
+}

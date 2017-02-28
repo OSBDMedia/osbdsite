@@ -1,0 +1,19 @@
+.home .mobile-nav ul {
+  background-color: transparent;
+}
+
+.home .App-header {
+  background-color: transparent;
+}
+
+body .home {
+  color: #ffffff;
+}
+
+.App-intro {
+  margin-top: 5em;
+  font-weight: bold;
+  text-align: right;
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
