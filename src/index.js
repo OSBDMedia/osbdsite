@@ -4,6 +4,7 @@ import { Router, hashHistory } from 'react-router';
 
 import Routes from './routes';
 
+import './assets/css/fonts.css';
 import './index.css';
 
 ReactDOM.render(
