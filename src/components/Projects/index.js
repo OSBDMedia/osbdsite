@@ -9,8 +9,8 @@ class Team extends Component {
 
   render() {
     let projects;
-    projects = data.projects.map(function(item) {
-      return <Project data={item} />;
+    projects = data.projects.map(function(item, i) {
+      return <Project data={item} key={i} />;
     });
     var pageTitle = "One Small Barking Dog | " + data.title;
 

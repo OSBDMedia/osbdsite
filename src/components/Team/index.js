@@ -9,8 +9,8 @@ class Team extends Component {
 
   render() {
     let teamMembers;
-    teamMembers = data.team.map(function(item) {
-      return <TeamMember data={item} />;
+    teamMembers = data.team.map(function(item, i) {
+      return <TeamMember data={item} key={i} />;
     });
 
 

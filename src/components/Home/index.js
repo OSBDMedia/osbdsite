@@ -35,17 +35,17 @@ class Home extends Component {
 
     return (
       <div className="Home">
-        <MediaQuery minDeviceWidth={992}>
+        <MediaQuery minDeviceWidth={1024}>
           <video playsInline="true" autoPlay="true" muted loop poster={bgImage} className="bgvid">
             <source src={ video } type="video/mp4" />
           </video>
         </MediaQuery>
-        <MediaQuery maxDeviceWidth={992}>
+        <MediaQuery maxDeviceWidth={1024} >
           <div className="bgimg" style={divImage}></div>
         </MediaQuery>
         <DocMeta tags={tags}/>
 
-        <main className="App-intro">
+        <main className="home-intro">
           <h2>Engaging young people and emerging culture through training and creating</h2>
         </main>
       </div>

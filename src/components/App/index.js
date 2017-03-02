@@ -26,18 +26,18 @@ class App extends Component {
           <div className="inner">
             <Link to="/" className="logo-title">
               <img src={logo} className="App-logo" alt="One Small Barking Dog" />
-              <h2 className="App-title">
-                One<br />
-                Small<br />
-                Barking<br />
-                Dog</h2>
+                <h1 className="App-title">
+                  One<br />
+                  Small<br />
+                  Barking<br />
+                  Dog</h1>
             </Link>
             <Navigation />
           </div>
         </header>
         <main className="App-body">
           <div className="App-body-inner">
-          {this.props.children}
+              {this.props.children}
           </div>
         </main>
       </div>
