@@ -1,5 +1,8 @@
 
 .App {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 200px;
 }
 
 .App-logo {
@@ -9,7 +12,7 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: rgba(0, 83, 76, 1);
   color: white;
   margin-bottom: 2em;
 }
@@ -47,7 +50,10 @@ a.logo-title {
 /*@media only screen*/
 
 
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 768px) {
+  .App {
+    padding-bottom: 250px;
+  }
   .App-logo {
     width: 120px;
     margin-right: -120px;

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 import DocMeta from 'react-doc-meta';
 import Navigation from '../Navigation';
+import Footer from '../PageFooter';
 import logo from './../../osbd_dog_sml.svg';
 import './app.css';
 
@@ -40,6 +41,7 @@ class App extends Component {
               {this.props.children}
           </div>
         </main>
+        <Footer />
       </div>
     );
   }
