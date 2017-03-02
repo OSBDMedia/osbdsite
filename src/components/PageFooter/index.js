@@ -33,7 +33,7 @@ class PageFooter extends Component {
                     </Link>
                   </Col>
                   <Col xs={6} md={8}>
-                    <div md={4} className="links">
+                    <div className="links">
                       {links}
                     </div>
                   </Col>
@@ -44,6 +44,9 @@ class PageFooter extends Component {
                 <ol>
                   {ambitions}
                 </ol>
+                <Link to="/about">
+                  Read more
+                </Link>
               </Col>
             </Row>
           </Container>
