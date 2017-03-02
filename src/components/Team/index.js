@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import DocumentTitle from 'react-document-title';
 import TeamMember from '../TeamMember';
+import PageTitle from '../PageTitle';
 //import renderHTML from 'react-render-html';
 
 import data from './team.json';
@@ -13,17 +13,12 @@ class Team extends Component {
       return <TeamMember data={item} key={i} />;
     });
 
-
     return (
       <div>
-        <header>
-          <DocumentTitle title={data.title}>
-            <h1>{data.title}</h1>
-          </DocumentTitle>
-        </header>
-        <main>
+        <PageTitle title={data.title} />
+        <article className="body">
           {teamMembers}
-        </main>
+        </article>
       </div>
     );
   }

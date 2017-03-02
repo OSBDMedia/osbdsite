@@ -1,22 +1,21 @@
 import React, { Component } from 'react';
+import renderHtml from 'react-render-html';
 import PageTitle from '../PageTitle';
-import renderHTML from 'react-render-html';
-//import { Link } from 'react-router';
-import data from './about.json';
 
-class About extends Component {
+import data from './contact.json';
 
+class Contact extends Component {
 
   render() {
     return (
       <div>
         <PageTitle title={data.title} />
         <article className="body">
-          {renderHTML(data.body)}
+          {renderHtml(data.body)}
         </article>
       </div>
     );
   }
 }
 
-export default About;
+export default Contact;

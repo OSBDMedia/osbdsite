@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import DocumentTitle from 'react-document-title';
+import PageTitle from '../PageTitle';
 import Project from '../Project';
 //import renderHTML from 'react-render-html';
 
@@ -12,15 +12,10 @@ class Team extends Component {
     projects = data.projects.map(function(item, i) {
       return <Project data={item} key={i} />;
     });
-    var pageTitle = "One Small Barking Dog | " + data.title;
 
     return (
       <div>
-        <header>
-          <DocumentTitle title={pageTitle}>
-            <h1>{data.title}</h1>
-          </DocumentTitle>
-        </header>
+        <PageTitle title={data.title} />
         <main>
           {projects}
         </main>
