@@ -52,7 +52,7 @@ a.logo-title {
 
 @media screen and (max-width: 768px) {
   .App {
-    padding-bottom: 250px;
+    padding-bottom: 330px;
   }
   .App-logo {
     width: 120px;

@@ -29,11 +29,12 @@ class Navigation extends Component {
   navigationLinks() {
     return [
       <ul key={0}>
-        <li key={1}><Link to="about" activeClassName="active">About</Link></li>
-        <li key={2}><Link to="team" activeClassName="active">Team</Link></li>
-        <li key={3}><Link to="projects" activeClassName="active">Projects</Link></li>
-        <li key={4}><a href="https://medium.com/@osbd">Blog</a></li>
-        <li key={5}><Link to="contact" activeClassName="active">Contact</Link></li>
+        <li key={1}><Link to="about" activeClassName="active" onClick={this.handleNavClick.bind(this)}>About</Link></li>
+        <li key={2}><Link to="team" activeClassName="active" onClick={this.handleNavClick.bind(this)}>Team</Link></li>
+        <li key={3}><Link to="projects" activeClassName="active" onClick={this.handleNavClick.bind(this)}>Projects</Link></li>
+        <li key={4}><a href="https://medium.com/@osbd" onClick={this.handleNavClick.bind(this)}>Blog</a></li>
+        <li key={5}><Link to="support" activeClassName="active" onClick={this.handleNavClick.bind(this)}>Support</Link></li>
+        <li key={6}><Link to="contact" activeClassName="active" onClick={this.handleNavClick.bind(this)}>Contact</Link></li>
       </ul>
     ];
   }
