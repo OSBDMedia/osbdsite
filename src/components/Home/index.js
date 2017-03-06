@@ -46,7 +46,7 @@ class Home extends Component {
         <DocMeta tags={tags}/>
 
         <main className="home-intro">
-          <h2>Engaging young people and emerging culture through training and creating</h2>
+          <h1>Engaging young people and emerging culture through training and creating</h1>
         </main>
       </div>
     );

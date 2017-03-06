@@ -30,10 +30,21 @@ body .home {
 .home-intro {
   margin-top: 5em;
   text-align: center;
-  font-size: 1.25em;
-  line-height: 1.5em;
+}
+
+.home-intro h1 {
+  font-size: 1.8em;
+  line-height: 1.1em;
+  margin: 0;
 }
 
 .home {
   text-shadow: 2px 2px #666;
+}
+
+@media screen and (max-device-width: 568px) {
+  .home-intro {
+    margin: 1em 0 4em;
+  }
+
 }
