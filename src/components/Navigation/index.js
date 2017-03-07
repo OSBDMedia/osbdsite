@@ -54,7 +54,7 @@ class Navigation extends Component {
   }
 
   renderNavigation() {
-    if(this.state.windowWidth <= 800) {
+    if(this.state.windowWidth <= 768) {
       return [
         <div key={8} className="mobile-nav">
           <p onClick={this.handleNavClick.bind(this)}>

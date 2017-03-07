@@ -49,6 +49,17 @@ a.logo-title {
 
 /*@media only screen*/
 
+@media screen and (max-width: 1024px) {
+
+  .App-logo {
+    width: 150px;
+    margin-right: -150px;
+  }
+  .App-title {
+    margin-left: 160px;
+    font-size: 1.5em;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .App {
