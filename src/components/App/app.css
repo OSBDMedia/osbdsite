@@ -18,9 +18,10 @@
 }
 
 .App-header .inner {
-  /*max-width: 1020px;*/
+  max-width: 1120px;
   height: 10em;
-  padding: 20px 40px;
+  padding: 20px 0;
+  margin: 0 auto;
 }
 
 .App-title {
@@ -32,6 +33,9 @@
 a.logo-title {
   text-decoration: none;
   color: #ffffff;
+}
+a.logo-title:hover {
+  border-bottom: none;
 }
 
 .App-intro {

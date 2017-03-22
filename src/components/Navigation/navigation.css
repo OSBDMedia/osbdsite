@@ -1,15 +1,15 @@
 .mobile-nav,
 .nav-menu {
   position: absolute;
-  top: 0.5em;
-  right: 0.5em;
+  top: 1em;
+  right: 1em;
 }
 .mobile-nav p {
   position: absolute;
   top: 0;
   right: 0;
   margin: 0;
-  font-size: 1.1em;
+  font-size: 1.6em;
 }
 .mobile-nav ul,
 .nav-menu ul {

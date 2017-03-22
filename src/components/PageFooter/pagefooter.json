@@ -13,6 +13,18 @@
       "url": "https://facebook.com/10155099690623923"
     },
     {
+      "type": "youtube",
+      "label": "Watch us on YouTube",
+      "title": "",
+      "url": "https://www.youtube.com/channel/UCKZhVmW7fwxspG-3y5i24kA"
+    },
+    {
+      "type": "instagram",
+      "label": "Instagram",
+      "title": "",
+      "url": "https://www.instagram.com/pippiper64/"
+    },
+    {
       "type": "medium",
       "label": "Follow our writing",
       "title": "",
@@ -21,13 +33,13 @@
   ],
   "ambitions": [
     {
-      "title": "Engaging young people / emerging culture through training and development in film-making."
+      "title": "Engage young people through training and development in film-making."
     },
     {
-      "title": "Creating media to explore, comment on and communicate spiritual and life / world issues."
+      "title": "Create innovative media to explore and communicate."
     },
     {
-      "title": "Connecting disparate groups and individuals interested in creativity and contemporary culture and faith to share, empower and evoke change."
+      "title": "Connect disparate groups and individuals interested in creativity and contemporary culture."
     }
   ]
 }
