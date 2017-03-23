@@ -44,7 +44,7 @@ body .home {
 
 @media screen and (max-device-width: 568px) {
   .home-intro {
-    margin: 1em 0 4em;
+    margin: 5em 0 4em;
   }
 
 }

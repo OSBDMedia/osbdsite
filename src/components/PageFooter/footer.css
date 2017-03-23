@@ -52,7 +52,7 @@ footer .ambitions {
 
 @media screen and (max-width: 768px) {
   footer {
-    height: 330px;
+    height: 280px;
     font-size: 0.8em;
   }
   .footer-logo {

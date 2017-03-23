@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 import DocMeta from 'react-doc-meta';
 import twitterImage from './images/osbd-home-tw.jpg';
 import MediaQuery from 'react-responsive';
-import video from './video/osbd-home-01.mp4';
+import video from './video/osbd-home-03.mp4';
+import videoOgg from './video/osbd-home-03.ogg';
+import videoWebm from './video/osbd-home-03.webm';
 import bgImage from './images/osbd-home.jpg';
 import './Home.css';
 
@@ -38,6 +40,8 @@ class Home extends Component {
         <MediaQuery minDeviceWidth={1024}>
           <video playsInline="true" autoPlay="true" muted loop poster={bgImage} className="bgvid">
             <source src={ video } type="video/mp4" />
+            <source src={ videoOgg } type="video/ogg" />
+            <source src={ videoWebm } type="video/webm" />
           </video>
         </MediaQuery>
         <MediaQuery maxDeviceWidth={1024} >
