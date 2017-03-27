@@ -16,7 +16,7 @@ class Support extends Component {
         <PageTitle title={data.title} />
         {renderHTML(data.body)}
         <div className="give-badge">
-          <a href="https://www.give.net/20216945" className="give-link"><img src={ GiveBadge } /></a>
+          <a href="https://www.give.net/20216945" className="give-link"><img src={ GiveBadge } role="presentation" /></a>
         </div>
       </div>
     );
