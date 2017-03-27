@@ -3,19 +3,23 @@
   "team": [
     {
       "name": "Pip Piper",
-      "role": "Director"
+      "role": "Director",
+      "dog": "dog-solo-color-wheels.svg"
     },
     {
       "name": "Sarah Green",
-      "role": "Co-Producer and Admin"
+      "role": "Producer and Admin",
+      "dog": "dog-solo-color-hair.svg"
     },
     {
       "name": "Laurence Sharman",
-      "role": "Chair of Trustees"
+      "role": "Chair of Trustees",
+      "dog": "dog-solo-color-tall.svg"
     },
     {
       "name": "Mike Riddell",
-      "role": "Patron"
+      "role": "Patron",
+      "dog": "dog-solo-color-pen.svg"
     }
   ]
 }

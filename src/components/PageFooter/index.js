@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 import FontAwesome  from 'react-fontawesome';
 import { Container, Row, Col } from 'react-grid-system';
-import logo from './../../osbd_dog_sml.svg';
+import logo from './../../dog-solo-white.svg';
 
 import data from './pagefooter.json';
 import './footer.css';
@@ -13,7 +13,7 @@ class PageFooter extends Component {
 
     let links;
     links = data.links.map(function(item, i) {
-      return <a href={item.url} title={item.title} key={i}><FontAwesome name={item.type} /></a>;
+      return item.active ? <a href={item.url} title={item.title} key={i}><FontAwesome name={item.type} /></a> : "";
     });
 
     let ambitions;

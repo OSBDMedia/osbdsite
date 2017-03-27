@@ -1,35 +1,49 @@
 {
   "title": "Projects",
+  "youTubeText": "Find us on YouTube",
+  "youTubeChannel": "https://www.youtube.com/channel/UCKZhVmW7fwxspG-3y5i24kA",
   "projects": [
     {
       "title": "Youth Doc",
       "dates": "2017&mdash;2018",
-      "description": "<p>2017 is the 50th anniversary of the pivotal film <em>Cathy Come Home</em> - a film that launched <em>Crisis</em>, <em>Shelter</em> and numerous housing associations. <em>Youth</em> is aiming high too, as it endeavors to bring home the story and reality of what it means to be young in 21st Century Britain.</p><p>Key partners and collaborators are being brought together to help shape the film and research has already started into this fascinating aspect of British life. We plan to bring the film out in 2018 as a feature documentary including many interactive elements to enable as wide a debate and audience as possible.</p>"
+      "description": "<p>2017 is the 50th anniversary of the pivotal film <em>Cathy Come Home</em> - a film that launched <em>Crisis</em>, <em>Shelter</em> and numerous housing associations. <em>Youth</em> is aiming high too, as it endeavors to bring home the story and reality of what it means to be young in 21st Century Britain.</p><p>Key partners and collaborators are being brought together to help shape the film and research has already started into this fascinating aspect of British life. We plan to bring the film out in 2018 as a feature documentary including many interactive elements to enable as wide a debate and audience as possible.</p>",
+      "video": {}
     },
     {
       "title": "Virtual Film School Pilot",
       "dates": "Autumn 2017",
-      "description": "<p>A Birmingham based, on-line pilot for 6-10 young aspiring filmmakers. The overall aim of the virtual film school is to train and equip the next generation of documentary filmmakers with a passion to tell stories that matter.<p>\n<p>The hope would be to train young people from struggling countries and regions as well as in the United Kingdom.</p>"
+      "description": "<p>A Birmingham based, on-line pilot for 6-10 young aspiring filmmakers. The overall aim of the virtual film school is to train and equip the next generation of documentary filmmakers with a passion to tell stories that matter.<p>\n<p>The hope would be to train young people from struggling countries and regions as well as in the United Kingdom.</p>",
+      "video": {}
     },
     {
       "title": "Visual Meditations and App",
       "dates": "Starting 2017",
-      "description": "<p><em>Images for Worship</em> was a central element of OSBD’s early life. In the digital age this new series would contain short viral pieces available via a number of on-line platforms but also 'wrapped' in an app potentially.</p>\n<p>Strong evocative visuals, coupled with crafted words, voice and music. This resource would enable as many as possible to access a world of spiritual exploration. Mike Riddell, the Charity’s new patron is writing some samples.</p>"
+      "description": "<p><em>Images for Worship</em> was a central element of OSBD’s early life. In the digital age this new series would contain short viral pieces available via a number of on-line platforms but also 'wrapped' in an app potentially.</p>\n<p>Strong evocative visuals, coupled with crafted words, voice and music. This resource would enable as many as possible to access a world of spiritual exploration. Mike Riddell, the Charity’s new patron is writing some samples.</p>",
+      "video": {
+        "videoId": "18jV6SGi4LQ"
+      }
     },
     {
       "title": "Talk Trigger Shorts",
       "dates": "Starting 2017",
-      "description": "<p>Building on the twelve shorts made under this label several years ago this series of short viral films would be quirky, contemporary and provocative. The intention is that they would be a useful tool for those trying to engage young people with important issues.</p>"
+      "description": "<p>Building on the twelve shorts made under this label several years ago this series of short viral films would be quirky, contemporary and provocative. The intention is that they would be a useful tool for those trying to engage young people with important issues.</p>",
+      "video": {
+        "videoId": "McVgr31j-zI"
+      }
     },
     {
       "title": "Not Drowning Waving",
       "dates": "Spring 2018",
-      "description": "<p>Building on the two short gatherings that happened in the early 2000s this latest gathering would aim to bring together a disparate group of activists and creative’s who want to explore current issues, culture and spirituality.</p>"
+      "description": "<p>Building on the two short gatherings that happened in the early 2000s this latest gathering would aim to bring together a disparate group of activists and creative’s who want to explore current issues, culture and spirituality.</p>",
+      "video": {}
     },
     {
       "title": "Partner Films",
       "dates": "",
-      "description": "We are still working in partnership with various organisations to help them create innovative and meaningful media This clip shows recent work with to promote the work of unseen who take action against modern day slavery. If you want to chat to us about working with you then do  get in touch."
+      "description": "<p>We are still working in partnership with various organisations to help them create innovative and meaningful media This clip shows recent work with to promote the work of unseen who take action against modern day slavery. If you want to chat to us about working with you then do  get in touch.</p>",
+      "video": {
+        "videoId": "B6Kfm30Eqas"
+      }
     }
   ]
 }

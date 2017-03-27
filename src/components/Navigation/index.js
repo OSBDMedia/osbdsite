@@ -32,7 +32,7 @@ class Navigation extends Component {
         <li key={1}><Link to="about" activeClassName="active" onClick={this.handleNavClick.bind(this)}>About</Link></li>
         <li key={2}><Link to="team" activeClassName="active" onClick={this.handleNavClick.bind(this)}>Team</Link></li>
         <li key={3}><Link to="projects" activeClassName="active" onClick={this.handleNavClick.bind(this)}>Projects</Link></li>
-        <li key={4}><a href="https://medium.com/@osbd" onClick={this.handleNavClick.bind(this)}>Blog</a></li>
+        <li key={4}><a href="https://medium.com/osbd" onClick={this.handleNavClick.bind(this)}>Blog</a></li>
         <li key={5}><Link to="support" activeClassName="active" onClick={this.handleNavClick.bind(this)}>Support</Link></li>
         <li key={6}><Link to="contact" activeClassName="active" onClick={this.handleNavClick.bind(this)}>Contact</Link></li>
       </ul>

@@ -4,31 +4,36 @@
       "type": "twitter",
       "label": "Tweet us",
       "title": "",
-      "url": "https://twitter.com/pippiper"
+      "url": "https://twitter.com/pippiper",
+      "active": 0
     },
     {
       "type": "facebook",
       "label": "Facebook",
       "title": "",
-      "url": "https://facebook.com/onesmallbarkingdog"
+      "url": "https://facebook.com/onesmallbarkingdog",
+      "active": 1
     },
     {
       "type": "youtube",
       "label": "Watch us on YouTube",
       "title": "",
-      "url": "https://www.youtube.com/channel/UCKZhVmW7fwxspG-3y5i24kA"
+      "url": "https://www.youtube.com/channel/UCKZhVmW7fwxspG-3y5i24kA",
+      "active": 1
     },
     {
       "type": "instagram",
       "label": "Instagram",
       "title": "",
-      "url": "https://www.instagram.com/pippiper64/"
+      "url": "https://www.instagram.com/pippiper64/",
+      "active": 0
     },
     {
       "type": "medium",
       "label": "Follow our writing",
       "title": "",
-      "url": "https://medium.com/osbd"
+      "url": "https://medium.com/osbd",
+      "active": 1
     }
   ],
   "ambitions": [

@@ -24,7 +24,8 @@
     "react-responsive": "^1.2.6",
     "react-router": "^3.0.2",
     "react-side-effect": "^1.1.0",
-    "react-svg-use": "^2.1.0"
+    "react-svg-use": "^2.1.0",
+    "react-youtube": "^7.3.0"
   },
   "scripts": {
     "start": "react-scripts start",

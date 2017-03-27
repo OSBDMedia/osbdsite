@@ -1,0 +1,23 @@
+.Project {
+  margin-top: 50px;
+}
+.Project .video-link {
+  display: inline-block;
+  float: right;
+  background-color: rgba(45, 41, 38, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.Project .video-link span {
+  margin: 5px;
+}
+
+.Project .video {
+  margin: 20px 0;
+}
+
+
+@media screen and (max-device-width: 568px) {
+  .Project .video {
+    margin: 20px -20px;
+  }
+}

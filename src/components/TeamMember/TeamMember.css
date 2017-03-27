@@ -1,7 +1,14 @@
 .Team-Member {
-  margin-bottom: 2em;
+  margin-bottom: 100px;
+  padding-left: 120px;
 }
 
 .Team-Member h4 {
   margin: 0.5em 0;
+}
+.Team-Member .person-logo {
+  width: 90px;
+  float: left;
+  margin-left: -120px;
+  margin-top: -5px
 }
