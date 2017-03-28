@@ -29,6 +29,7 @@
   line-height: 0.85em;
   font-size: 1.85em;
   margin-left: 210px;
+  display: inline-block;
 }
 a.logo-title {
   text-decoration: none;
