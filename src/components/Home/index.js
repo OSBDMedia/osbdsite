@@ -32,7 +32,8 @@ class Home extends Component {
 
     var divImage = {
       backgroundImage: "url(" + bgImage + ")",
-      backgroundSize: "cover"
+      backgroundSize: "cover",
+      backgroundPosition: "right center"
     };
 
     return (
