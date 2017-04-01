@@ -14,10 +14,14 @@ class Support extends Component {
     return(
       <div>
         <PageTitle title={data.title} />
-        {renderHTML(data.body)}
+        <h2 className="sub-heading">
+          { data.subheading }
+        </h2>
         <div className="give-badge">
           <a href="https://www.give.net/20216945" className="give-link"><img src={ GiveBadge } role="presentation" /></a>
         </div>
+
+        {renderHTML(data.body)}
       </div>
     );
   }

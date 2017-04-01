@@ -12,6 +12,8 @@ class Contact extends Component {
         <PageTitle title={data.title} />
         <article className="body">
           {renderHtml(data.body)}
+          <p><strong>Email:</strong> <a href="mailto:{data.email}" role="presentation">{data.email}</a> </p>
+          <p><strong>Phone Pip Piper:</strong> { data.phone }</p>
         </article>
       </div>
     );

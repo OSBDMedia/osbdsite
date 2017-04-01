@@ -1,3 +1,10 @@
+.projects .intro {
+  font-size: 1.1em;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #dddddd;
+}
+
 .Project {
   margin-top: 50px;
 }

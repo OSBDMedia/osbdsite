@@ -11,6 +11,8 @@ class PageFooter extends Component {
 
   render() {
 
+    const GiveBadge = "https://www.give.net/pages/assets/uimages/support_buttons/Givenet-SUPPORT-button-SMALL-white.png";
+
     let links;
     links = data.links.map(function(item, i) {
       return item.active ? <a href={item.url} title={item.title} key={i}><FontAwesome name={item.type} /></a> : "";
@@ -27,20 +29,23 @@ class PageFooter extends Component {
             <Row>
               <Col md={6} className="logo-links">
                 <Row>
-                  <Col xs={6} md={4}>
+                  <Col xs={3}>
                     <Link to="/" className="logo-title">
                       <img src={logo} className="footer-logo" alt="One Small Barking Dog" />
                     </Link>
                   </Col>
-                  <Col xs={6} md={8}>
+                  <Col xs={4}>
                     <div className="links">
                       {links}
                     </div>
                   </Col>
+                  <Col xs={5}>
+                    <a href="https://www.give.net/20216945" className="give-link" target="new"><img src={ GiveBadge } role="presentation" /></a>
+                  </Col>
                 </Row>
               </Col>
               <Col md={6} className="ambitions">
-                <p>Our ambitions:</p>
+                <p>What we do:</p>
                 <ol>
                   {ambitions}
                 </ol>

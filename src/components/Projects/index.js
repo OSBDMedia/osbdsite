@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import renderHTML from 'react-render-html';
 import PageTitle from '../PageTitle';
 import Project from '../Project';
 import FontAwesome  from 'react-fontawesome';
@@ -23,6 +24,9 @@ class Team extends Component {
 
             <FontAwesome name="arrow-right" /> &nbsp; { data.youTubeText }
           </a></p>
+          <div className="intro">
+            { renderHTML(data.intro) }
+          </div>
           {projects}
         </main>
       </div>

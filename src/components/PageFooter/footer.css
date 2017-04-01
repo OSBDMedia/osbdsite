@@ -38,6 +38,9 @@ footer ol {
   margin: 2px 0;
 }
 
+footer .give-link img {
+  width: 110px;
+}
 
 .home footer {
   background-color: rgba(58, 53, 49, 0.5);
@@ -57,5 +60,11 @@ footer .ambitions {
   }
   .footer-logo {
     width: 60px;
+  }
+  footer .links a {
+    width: 25px;
+    height: 25px;
+    font-size: 1.25em;
+    line-height: 25px;
   }
 }
