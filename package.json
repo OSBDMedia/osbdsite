@@ -35,5 +35,5 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://osbdmedia.github.io/osbdsite"
+  "homepage": "http://osbd.org"
 }
