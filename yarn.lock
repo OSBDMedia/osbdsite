@@ -4304,6 +4304,12 @@ react-fontawesome@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/react-fontawesome/-/react-fontawesome-1.5.0.tgz#879d1b2aa5c48bba551e9237f84993217b5645c4"
 
+react-ga@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-2.1.2.tgz#7af206c5e8761d7176e15773fe826acdb70ac653"
+  dependencies:
+    object-assign "^4.0.1"
+
 react-grid-system@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/react-grid-system/-/react-grid-system-2.5.0.tgz#61f67907970f22ba0723bd032aeff2fbfcf741f1"
