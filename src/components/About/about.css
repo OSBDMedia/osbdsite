@@ -1,6 +1,20 @@
 .about aside.registrations {
+  clear: both;
   font-size: 0.8em;
   margin-top: 20px;
   padding-top: 20px;
   border-top: 1px solid #dddddd;
+}
+
+.about aside.right {
+  width: 180px;
+  margin: 0 0 20px 40px;
+}
+.about aside .logo {
+  max-width: 100%;
+}
+.about aside .text {
+  color: #666666;
+  font-size: 0.85em;
+  text-align: center;
 }
