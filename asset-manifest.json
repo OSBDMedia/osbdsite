@@ -1,16 +1,18 @@
 {
-  "main.css": "static/css/main.0bda519a.css",
-  "main.css.map": "static/css/main.0bda519a.css.map",
-  "main.js": "static/js/main.f8bd7c5f.js",
-  "main.js.map": "static/js/main.f8bd7c5f.js.map",
+  "main.css": "static/css/main.3acb8d3a.css",
+  "main.css.map": "static/css/main.3acb8d3a.css.map",
+  "main.js": "static/js/main.79b642b9.js",
+  "main.js.map": "static/js/main.79b642b9.js.map",
   "static/media/dog-solo-color-hair.svg": "static/media/dog-solo-color-hair.8961a701.svg",
   "static/media/dog-solo-color-pen.svg": "static/media/dog-solo-color-pen.75d58399.svg",
   "static/media/dog-solo-color-tall.svg": "static/media/dog-solo-color-tall.6868b5d4.svg",
   "static/media/dog-solo-color-wheels.svg": "static/media/dog-solo-color-wheels.42464b29.svg",
+  "static/media/dog-solo-color.svg": "static/media/dog-solo-color.20fb4ec6.svg",
   "static/media/dog-solo-white.svg": "static/media/dog-solo-white.bb157868.svg",
   "static/media/osbd-home-03.mp4": "static/media/osbd-home-03.665e238a.mp4",
   "static/media/osbd-home-03.ogg": "static/media/osbd-home-03.fe410590.ogg",
   "static/media/osbd-home-03.webm": "static/media/osbd-home-03.f1b58e9d.webm",
   "static/media/osbd-home-tw.jpg": "static/media/osbd-home-tw.6ec1141f.jpg",
-  "static/media/osbd-home.jpg": "static/media/osbd-home.cc99cb38.jpg"
+  "static/media/osbd-home.jpg": "static/media/osbd-home.cc99cb38.jpg",
+  "static/media/osbd_dog.png": "static/media/osbd_dog.1844eb1d.png"
 }
