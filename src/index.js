@@ -11,7 +11,9 @@ import './assets/css/fonts.css';
 import './index.css';
 
 function fireTracking() {
-  ReactGA.pageview(window.location.href);
+  if (window.location.hostname !== 'localhost') {
+    ReactGA.pageview(window.location.pathname);
+  }
 }
 
 ReactDOM.render(
