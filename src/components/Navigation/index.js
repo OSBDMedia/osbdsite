@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 const FaBars = require('react-icons/lib/fa/bars');
+import ReactGA from 'react-ga';
 
 import './navigation.css';
 
@@ -51,6 +52,7 @@ class Navigation extends Component {
     } else {
       this.setState({mobileNavVisible: false});
     }
+    this.handleClickGA();
   }
 
   renderNavigation() {
@@ -70,6 +72,13 @@ class Navigation extends Component {
         </div>
       ];
     }
+  }
+
+  handleClickGA() {
+    ReactGA.event({
+      category: 'Navigation',
+      action: 'Clicked Link'
+    });
   }
 
   render() {
